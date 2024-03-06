@@ -1,0 +1,4 @@
+agent_id:22
+delay:5
+help:no
+random:no
