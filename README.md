@@ -6,5 +6,5 @@ working `.exe` with `batch script` and `settings.txt`
 
 
 using this agent layout (change if needed)
-![agents](https://github.com/Paroryx/Valorant-Instalock/assets/93038439/5f033bb9-0a37-4369-8060-8a668df4312c)
 
+![agents](https://github.com/Paroryx/Valorant-Instalock/assets/93038439/2d320104-af42-4a5e-84fc-95ce4cc6b64a)
