@@ -146,7 +146,7 @@ public:
             name = "Iso";
             role = "Duelist";
         default:
-            break;
+            
         }
         return new Agent(location, name, role, id);
     }
