@@ -15,14 +15,14 @@ for /f "tokens=2 delims=:" %%d in ('findstr /i "random:" "%settings%"') do (
 )
 if "%help%" == "yes" (
 	title Valorant Instalock -help
-	Valorant_InstalockV1.exe ?
+	Valorant_InstalockV2.exe ?
 	pause
 	exit
 ) else if "%random%" == "yes" (
-	title Valorant Instalocker %delay%ms -random
-	Valorant_InstalockV1.exe 33 %delay%
+	title Valorant InstalockV2 %delay%ms -random
+	Valorant_InstalockV2.exe 33 %delay%
 ) else (
-	title Valorant Instalock %delay%ms Agent-%agent_id%
-	Valorant_InstalockV1.exe %agent_id% %delay%
+	title Valorant InstalockV2 %delay%ms Agent-%agent_id%
+	Valorant_InstalockV2.exe %agent_id% %delay%
 )
 pause
