@@ -25,128 +25,133 @@ private:
 };
 class Agents {
 public:
-    static const int AGENT_COUNT = 23; //Current Ammount of Agents
+    static const int AGENT_COUNT = 24; //Current Ammount of Agents
     static Agent* resolveAgent(int id) {
         POINT location = { 0,0 };
         std::string name = "";
         std::string role = "";
         switch (id) {
-        case 1:
-            location = { 625,841 };
-            name = "Brimstone";
-            role = "Controller";
-            break;
-        case 2:
-            location = { 876,1008 };
-            name = "Viper";
-            role = "Controller";
-            break;
-        case 3:
-            location = { 1209,848 };
-            name = "Omen";
-            role = "Controller";
-            break;
-        case 4:
-            location = { 791,924 };
-            name = "Astra";
-            role = "Controller";
-            break;
-        case 5:
-            location = { 881,844 };
-            name = "Harbor";
-            role = "Controller";
-            break;
-        case 6:
-            location = { 712,915 };
-            name = "Sova";
-            role = "Initiator";
-            break;
-        case 7:
-            location = { 873,925 };
-            name = "Breach";
-            role = "Initiator";
-            break;
-        case 8:
-            location = { 792,1008 };
-            name = "Skye";
-            role = "Initiator";
-            break;
-        case 9:
-            location = { 1294,927 };
-            name = "KAY/O";
-            role = "Initiator";
-            break;
-        case 10:
-            location = { 798,837 };
-            name = "Fade";
-            role = "Initiator";
-            break;
-        case 11:
-            location = { 1127,927 };
-            name = "Gekko";
-            role = "Initiator";
-            break;
-        case 12:
-            location = { 1044,842 };
-            name = "Killjoy";
-            role = "Sentinel";
-            break;
-        case 13:
-            location = { 1042,925 };
-            name = "Cypher";
-            role = "Sentinel";
-            break;
-        case 14:
-            location = { 627,918 };
-            name = "Sage";
-            role = "Sentinel";
-            break;
-        case 15:
-            location = { 959,924 };
-            name = "Chamber";
-            role = "Sentinel";
-            break;
-        case 16:
-            location = { 709,841 };
-            name = "Deadlock";
-            role = "Sentinel";
-            break;
-        case 17:
-            location = { 1294,843 };
-            name = "Phoenix";
-            role = "Duelist";
-            break;
-        case 18:
-            location = { 963,841 };
-            name = "Jett";
-            role = "Duelist";
-            break;
-        case 19:
-            location = { 709,1007 };
-            name = "Reyna";
-            role = "Duelist";
-            break;
-        case 20:
-            location = { 622,1003 };
-            name = "Raze";
-            role = "Duelist";
-            break;
-        case 21:
-            location = { 960,1005 };
-            name = "Yoru";
-            role = "Duelist";
-            break;
-        case 22:
-            location = { 1137,840 };
-            name = "Neon";
-            role = "Duelist";
-            break;
-        case 23:
-            location = { 1213,926 };
-            name = "Iso";
-            role = "Duelist";
-        default:
-            
+            case 1:
+                location = { 625,841 };
+                name = "Brimstone";
+                role = "Controller";
+                break;
+            case 2:
+                location = { 958,1008 };
+                name = "Viper";
+                role = "Controller";
+                break;
+            case 3:
+                location = { 1208,842 };
+                name = "Omen";
+                role = "Controller";
+                break;
+            case 4:
+                location = { 1044,928 };
+                name = "Clove";
+                role = "Controller";
+                break;
+            case 5:
+                location = { 792,923 };
+                name = "Astra";
+                role = "Controller";
+                break;
+            case 6:
+                location = { 875,838 };
+                name = "Harbor";
+                role = "Controller";
+                break;
+            case 7:
+                location = { 704,921 };
+                name = "Sova";
+                role = "Initiator";
+                break;
+            case 8:
+                location = { 880,923 };
+                name = "Breach";
+                role = "Initiator";
+                break;
+            case 9:
+                location = { 877,1009 };
+                name = "Skye";
+                role = "Initiator";
+                break;
+            case 10:
+                location = { 622,1008 };
+                name = "KAY/O";
+                role = "Initiator";
+                break;
+            case 11:
+                location = { 793,840 };
+                name = "Fade";
+                role = "Initiator";
+                break;
+            case 12:
+                location = { 1210,928 };
+                name = "Gekko";
+                role = "Initiator";
+                break;
+            case 13:
+                location = { 1048,846 };
+                name = "Killjoy";
+                role = "Sentinel";
+                break;
+            case 14:
+                location = { 1128,928 };
+                name = "Cypher";
+                role = "Sentinel";
+                break;
+            case 15:
+                location = { 631,923 };
+                name = "Sage";
+                role = "Sentinel";
+                break;
+            case 16:
+                location = { 961,924 };
+                name = "Chamber";
+                role = "Sentinel";
+                break;
+            case 17:
+                location = { 713,839 };
+                name = "Deadlock";
+                role = "Sentinel";
+                break;
+            case 18:
+                location = { 1298,843 };
+                name = "Phoenix";
+                role = "Duelist";
+                break;
+            case 19:
+                location = { 961,841 };
+                name = "Jett";
+                role = "Duelist";
+                break;
+            case 20:
+                location = { 790,1002 };
+                name = "Reyna";
+                role = "Duelist";
+                break;
+            case 21:
+                location = { 709,1007 };
+                name = "Raze";
+                role = "Duelist";
+                break;
+            case 22:
+                location = { 1046,1008 };
+                name = "Yoru";
+                role = "Duelist";
+                break;
+            case 23:
+                location = { 1135,840 };
+                name = "Neon";
+                role = "Duelist";
+                break;
+            case 24:
+                location = { 1297,924 };
+                name = "Iso";
+                role = "Duelist";
+            default:
+                ;
         }
         return new Agent(location, name, role, id);
     }
@@ -163,7 +168,7 @@ public:
         printLine();
         for (int i = 1; i < (AGENT_COUNT + 1);i++) { //really starting at 1
             Agent* temp = resolveAgent(i);
-            std::cout<< temp->getID() <<"  <=>  "<< temp->getName() <<"  <=>  "<< temp->getRole() <<"  <=>  ("<< temp->getLocation().x <<"|"<< temp->getLocation().y << ")" << std::endl;
+            std::cout << temp->getID() << "  <=>  " << temp->getName() << "  <=>  " << temp->getRole() << "  <=>  (" << temp->getLocation().x << "|" << temp->getLocation().y << ")" << std::endl;
         }
         printLine();
     }
@@ -210,15 +215,15 @@ static void select(Agent* agent, POINT SELECT, int delay) {
     delete(pCursor);
 }
 void showHelp(char* args) {
-    std::cout << "Help:"<<std::endl;
+    std::cout << "Help:" << std::endl;
     Agents::listIds();
     std::cerr << "Usage: " << args << " <agent_id> <delay in milliseconds> \nfor more have a look at readme.md (;" << std::endl;
 }
- // const POINT NEON = { 1146, 830 };
+// const POINT NEON = { 1146, 830 };
 const POINT SELECT = { 954, 712 };
 std::vector<std::vector<int>> keys = { {0x53}, {0x50} }; //S P
-bool is_selecting =  false;
-int main(int argc, char* argv[]){
+bool is_selecting = false;
+int main(int argc, char* argv[]) {
     if (argc != 3) { //check if 3 parameter
         showHelp(argv[0]);
         return 1;
@@ -227,7 +232,8 @@ int main(int argc, char* argv[]){
     if (delay < 0 || delay > 50) { //a delay higher as 50 is not recommended
         if (delay < 50) {
             std::cerr << "A delay higher as 50ms is not reccommended." << std::endl;
-        }else{
+        }
+        else {
             std::cerr << "Invalid milliseconds value." << std::endl;
         }
         return 1;
@@ -235,25 +241,25 @@ int main(int argc, char* argv[]){
     int agent_id = std::atoi(argv[1]);
     if (agent_id > Agents::AGENT_COUNT) { //if bigger => random select
         srand(time(0));
-        agent_id = (rand()%23) + 1;
+        agent_id = (rand() % 23) + 1;
         std::cout << "Randomly selected: " << Agents::resolveAgent(agent_id)->getName() << std::endl;
     }
     Agent* agent = Agents::resolveAgent(agent_id);
     std::string agent_name = agent->getName();
-    std::cout << "started instalock on "<< agent_name <<" with a " << delay << "ms delay"<<std::endl;
+    std::cout << "started instalock on " << agent_name << " with a " << delay << "ms delay" << std::endl;
     long long int max_cycles = 9999999999999999999;
-    while (max_cycles!=0) {
-        if (checkCurrentState(keys[0])&& !is_selecting) { // S is pressed
+    while (max_cycles != 0) {
+        if (checkCurrentState(keys[0]) && !is_selecting) { // S is pressed
             is_selecting = true;
         }
         else if (checkCurrentState(keys[1])) { // P is pressed
             is_selecting = false;
-            std::cout << "bye bye :) \n I selected "<< agent->getName() <<" with "<< cycles <<" cycles\nGO GO GO\nNow go play and carry your team!" << std::endl;
+            std::cout << "bye bye :) \n I selected " << agent->getName() << " with " << cycles << " cycles\nGO GO GO\nNow go play and carry your team!" << std::endl;
             sleep(3000);
             exit(0);
         }
         if (is_selecting) {
-            select(agent,SELECT,delay); //delay in ms
+            select(agent, SELECT, delay); //delay in ms
         }
         max_cycles--;
     }
